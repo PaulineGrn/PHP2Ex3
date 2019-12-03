@@ -1,6 +1,6 @@
 <!-- Déclaration d'une variable gender -->
 <?php
-$gender='femme';
+$gender='homme';
 ?>
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
@@ -11,7 +11,7 @@ $gender='femme';
 <body>
   <?php
   // Si c'est une femme alors c'est une développeuse
-  if($gender=="femme")
+  if($gender=='femme')
   {
     echo'C\'est une développeuse !!!';
   }
